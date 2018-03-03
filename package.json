@@ -1,0 +1,25 @@
+{
+  "name": "selfllery-tge",
+  "version": "1.0.0",
+  "description": "selfllery tge",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "build-contracts": "sol-merger \"./contracts/*.sol\" ./build"
+  },
+  "author": "SergZen",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "truffle": "^4.0.1",
+    "zeppelin-solidity": "^1.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "sol-merger": "^0.1.2"
+  }
+}
